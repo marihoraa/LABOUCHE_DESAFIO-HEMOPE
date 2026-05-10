@@ -56,9 +56,3 @@ https://github.com/user-attachments/assets/29c29240-8c1a-4c8a-b5bc-4a3b9ff2e40d
 
 
 
-
-
-
-
-├── App.tsx                     
-└── package.json                 
