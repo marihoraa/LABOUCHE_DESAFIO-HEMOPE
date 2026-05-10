@@ -46,16 +46,12 @@ DESAFIO-HEMOPE/
 
 
 
-
-
-
-
-<img width="739" height="1600" alt="WhatsApp Image 2026-05-10 at 09 44 21 (3)" src="https://github.com/user-attachments/assets/735be50c-4493-4bcb-8996-75a8a3a70a19" />
-<img width="739" height="1600" alt="WhatsApp Image 2026-05-10 at 09 44 21 (2)" src="https://github.com/user-attachments/assets/44760b67-8df6-4118-ae58-56af78e2c06d" />
-<img width="739" height="1600" alt="WhatsApp Image 2026-05-10 at 09 44 22 (1)" src="https://github.com/user-attachments/assets/ff0e2e2e-b159-4734-9bea-718b761c12a1" />
-<img width="739" height="1600" alt="WhatsApp Image 2026-05-10 at 09 44 22" src="https://github.com/user-attachments/assets/24f97ad3-da1b-4ea6-ac82-7f7b803998a5" />
-<img width="739" height="1600" alt="WhatsApp Image 2026-05-10 at 09 44 21 (1)" src="https://github.com/user-attachments/assets/f6431e62-94f1-47cb-961a-440066e9e689" />
-<img width="739" height="1600" alt="WhatsApp Image 2026-05-10 at 09 44 21" src="https://github.com/user-attachments/assets/29c29240-8c1a-4c8a-b5bc-4a3b9ff2e40d" />
+https://github.com/user-attachments/assets/735be50c-4493-4bcb-8996-75a8a3a70a19
+https://github.com/user-attachments/assets/44760b67-8df6-4118-ae58-56af78e2c06d
+https://github.com/user-attachments/assets/ff0e2e2e-b159-4734-9bea-718b761c12a1
+https://github.com/user-attachments/assets/24f97ad3-da1b-4ea6-ac82-7f7b803998a5
+https://github.com/user-attachments/assets/f6431e62-94f1-47cb-961a-440066e9e689
+https://github.com/user-attachments/assets/29c29240-8c1a-4c8a-b5bc-4a3b9ff2e40d
 
 
 
