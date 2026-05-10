@@ -22,22 +22,15 @@ Em primeira mão, deve-se instalar o Node.js, Expo CLI e o aplicativo Expo Go no
 # 4. Inicie o servidor de desenvolvimento via QR Code disponibilizado pelo Expo.
 
 # Estrutura de Pastas
-labouche/
-├── src/
-│   ├── components/
-│   │   ├── BarraCategorias.tsx   # Add. filtro fixo e horizontal por categoria + prod.
-│   │   └── Header.tsx            # Cabeçalho reutilizável.
-│   ├── routes/
-│   │   └── rotas.tsx             # Configuração do React Navigation + tipagens centralizadas.
-│   ├── screens/
-│   │   ├── TelaInicial.tsx       # Listagem de produtos com busca e filtros.
-│   │   └── TelaDetalhes.tsx      # Detalhes do produto selecionado.
-│   ├── services/
-│   │   └── api.ts                # Instância Axios configurada para a Fake Store API.
-│   └── styles/
-│       └── cores.ts              # Paleta de cores global do app.
-├── App.tsx
-└── package.json
+DESAFIO-HEMOPE/
+src/ 
+> components/: BarraCategorias.tsx (Add. filtro fixo e horizontal por categoria + prod.) e Header.tsx (Cabeçalho reutilizável).
+> routes/: rotas.tsx (Configuração do React Navigation + tipagens centralizadas).
+> screens/: TelaInicial.tsx  (Listagem de produtos com busca e filtros) e TelaDetalhes.tsx: (Detalhes do produto selecionado).
+> services/: api.ts (Axios para a Fake Store API).
+> styles/: cores.ts (Paleta de cores global do app).
+App.tsx
+package.json
 
 # Decisões Técnicas
 Neste desafio, um ponto primordial a ser explorado foi a animação nativa da tela de carregamento, visando proporcionar uma experiência diferenciada ao atender os requisitos deste projeto. Para tal, implementei com useNativeDriver: true para manter a fluidez do app, sem impactar a navegação. No mais, acrescentei uma tipagem centralizada no arquivo de rotas e estabeleci o RootStackParamList e Produtos neste arquivo, para a exportação para todas as telas - sendo assim, evitando uma possível duplicação e estabelecendo uma cnavegação mais consistente. 
