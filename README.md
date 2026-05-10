@@ -15,22 +15,7 @@ Aplicativo Mobile desenvolvido em React Native para listagem e detalhamento de p
 * Axios
 
 # Como Executar o Projeto
-Em primeira mão, deve-se instalar o Node.js, Expo CLI e o aplicativo Expo Go no celular.
-# 1. Clone o repositório
-# 2. Acesse a pasta do projeto
-# 3. Instale as dependências
-# 4. Inicie o servidor de desenvolvimento via QR Code disponibilizado pelo Expo.
-
-# Estrutura de Pastas
-DESAFIO-HEMOPE/
-src/ 
-> components/: BarraCategorias.tsx (Add. filtro fixo e horizontal por categoria + prod.) e Header.tsx (Cabeçalho reutilizável).
-> routes/: rotas.tsx (Configuração do React Navigation + tipagens centralizadas).
-> screens/: TelaInicial.tsx  (Listagem de produtos com busca e filtros) e TelaDetalhes.tsx: (Detalhes do produto selecionado).
-> services/: api.ts (Axios para a Fake Store API).
-> styles/: cores.ts (Paleta de cores global do app).
-App.tsx
-package.json
+Em primeira mão, deve-se instalar o Node.js, Expo CLI e o aplicativo Expo Go no celular. Clone o repositório, acesse a pasta do projeto, instale as dependências e inicie o servidor de desenvolvimento via QR Code disponibilizado pelo Expo.
 
 # Decisões Técnicas
 Neste desafio, um ponto primordial a ser explorado foi a animação nativa da tela de carregamento, visando proporcionar uma experiência diferenciada ao atender os requisitos deste projeto. Para tal, implementei com useNativeDriver: true para manter a fluidez do app, sem impactar a navegação. No mais, acrescentei uma tipagem centralizada no arquivo de rotas e estabeleci o RootStackParamList e Produtos neste arquivo, para a exportação para todas as telas - sendo assim, evitando uma possível duplicação e estabelecendo uma cnavegação mais consistente. 
@@ -40,3 +25,23 @@ Ao navegar para TelaDetalhes, o produto completo segue o caminho via route.param
 Estabeleci uma componente Header reutilizável, habilitando uma prop mostrarVoltar opcional, adaptando seu layout (com ou sem botão de retorno) conforme a tela. Isso evita a criação de cabeçalhos duplicados e mantém consistência visual do aplicativo. Além disso, um ponto extra foi o filtro por categoria e a busca textual sobre o estado local produtos, sem nenhuma chamada adicional à API. O resultado é reatividade imediata ao digitar ou selecionar uma categoria, bem como a pesquisa por barra, exibindo os resultados em tempo real.
 Paleta de cores via objeto centralizado
 Todas as cores do app são importadas de cores.ts. Qualquer ajuste visual futuro é feito em um único lugar, sem necessidade de busca e substituição em múltiplos arquivos.
+
+# Estrutura de Pastas
+
+```text
+DESAFIO-HEMOPE/
+├── src/
+│   ├── components/
+│   │   ├── BarraCategorias.tsx  # Filtro horizontal por categoria
+│   │   └── Header.tsx           # Cabeçalho reutilizável
+│   ├── routes/
+│   │   └── rotas.tsx            # Configuração de navegação e tipos
+│   ├── screens/
+│   │   ├── TelaInicial.tsx      # Listagem, busca e filtros
+│   │   └── TelaDetalhes.tsx     # Detalhes do produto
+│   ├── services/
+│   │   └── api.ts               # Configuração do Axios (Fake Store API)
+│   └── styles/
+│       └── cores.ts             # Paleta de cores global
+├── App.tsx                      # Entrada principal do app
+└── package.json                 # Dependências e scripts
