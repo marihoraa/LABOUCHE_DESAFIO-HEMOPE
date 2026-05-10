@@ -23,8 +23,8 @@ Neste desafio, um ponto primordial a ser explorado foi a animação nativa da te
 Ao navegar para TelaDetalhes, o produto completo segue o caminho via route.params, eliminando a necessidade de uma segunda requisição à API apenas para exibir os detalhes, tornando a navegação instantânea. 
 
 Estabeleci uma componente Header reutilizável, habilitando uma prop mostrarVoltar opcional, adaptando seu layout (com ou sem botão de retorno) conforme a tela. Isso evita a criação de cabeçalhos duplicados e mantém consistência visual do aplicativo. Além disso, um ponto extra foi o filtro por categoria e a busca textual sobre o estado local produtos, sem nenhuma chamada adicional à API. O resultado é reatividade imediata ao digitar ou selecionar uma categoria, bem como a pesquisa por barra, exibindo os resultados em tempo real.
-Paleta de cores via objeto centralizado
-Todas as cores do app são importadas de cores.ts. Qualquer ajuste visual futuro é feito em um único lugar, sem necessidade de busca e substituição em múltiplos arquivos.
+
+Ademais, decidi manter os comentários para controle interno do projeto.
 
 # Estrutura de Pastas
 
