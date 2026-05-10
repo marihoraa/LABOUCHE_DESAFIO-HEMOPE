@@ -28,6 +28,8 @@ Ademais, decidi manter os comentários para controle interno do projeto.
 
 # Estrutura de Pastas
 
+### 📂 Estrutura de Pastas
+
 ```text
 DESAFIO-HEMOPE/
 ├── src/
@@ -43,7 +45,9 @@ DESAFIO-HEMOPE/
 │   │   └── api.ts               # Configuração do Axios (Fake Store API)
 │   └── styles/
 │       └── cores.ts             # Paleta de cores global
-
+├── App.tsx                      # Entrada principal do app
+└── package.json                 # Demais dependências do projeto
++
 
 
 https://github.com/user-attachments/assets/735be50c-4493-4bcb-8996-75a8a3a70a19
