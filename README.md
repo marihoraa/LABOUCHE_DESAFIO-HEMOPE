@@ -28,7 +28,7 @@ Ademais, decidi manter os comentários para controle interno do projeto.
 
 # Estrutura de Pastas
 
-### 📂 Estrutura de Pastas
+# Estrutura de Pastas
 
 ```text
 DESAFIO-HEMOPE/
