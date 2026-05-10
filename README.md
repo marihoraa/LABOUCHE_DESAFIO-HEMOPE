@@ -26,9 +26,7 @@ Estabeleci uma componente Header reutilizável, habilitando uma prop mostrarVolt
 
 Ademais, decidi manter os comentários para controle interno do projeto.
 
-# Estrutura de Pastas
-
-# Estrutura de Pastas
+# Estrutura de Pastas + Prints (links)
 
 ```text
 DESAFIO-HEMOPE/
