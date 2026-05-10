@@ -43,5 +43,5 @@ DESAFIO-HEMOPE/
 │   │   └── api.ts               # Configuração do Axios (Fake Store API)
 │   └── styles/
 │       └── cores.ts             # Paleta de cores global
-├── App.tsx                      # Entrada principal do app
-└── package.json                 # Dependências e scripts
+├── App.tsx                     
+└── package.json                 
